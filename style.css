@@ -1,0 +1,121 @@
+body {
+
+    margin:0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+
+    position: absolute;
+    top: 0;
+    bottom: 20px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(29, 97, 153);
+    box-shadow: 0 3px 3px rgba(37, 37, 37, 0.5);
+    padding-bottom: 13px;
+
+}
+
+input {
+    height: 20px;
+    width: 140px;
+    position: relative;
+    left: 20px;
+    top: 30px;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    outline: none;
+}
+.ul {
+    position: relative;
+    bottom: 10px;
+    left: 0px;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    font-size: 10px;
+    margin-left: 130px;
+
+}
+
+li {
+
+    position: relative;
+    top: 0px;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+li :hover {
+
+    background-color: lightblue;
+}
+
+a {
+
+    color: white;
+    text-decoration: none;
+}
+
+/* konten 
+*/
+
+.content {
+
+            position: relative;
+            top: 0px;
+            width: 100%;
+            height: 900px;
+            background-color: rgb(108, 148, 15);
+            
+            
+
+}
+
+img {
+
+    position: relative;
+    top: 10px;
+    left: 60%;
+    clip-path: circle(52% at center);
+    width: 150px;
+    height: 150px;
+    box-shadow: 5px 10px 10px rgba(14, 13, 13, 0.3);
+}
+
+p {
+
+    position: relative;
+    bottom: 130px;
+    right: 90px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: black;
+    box-shadow: 10px 10px 10px rgba(17, 17, 17, 0.247);
+    background-color: rgb(180, 219, 178);
+    margin-left: 100px;
+    margin-right: 100px;
+    color: rgb(20, 11, 11);
+    border-radius: 30px;
+}
+
+.button {
+    position: relative;
+    bottom: 120px;
+    left: 80px;
+    background-color: blue;
+    border-radius: 50px;
+    border: 100px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+
+
+
