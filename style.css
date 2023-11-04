@@ -8,14 +8,14 @@ body {
 
 .navbar {
 
-    position: absolute;
+    position: relative;
     top: 0;
     bottom: 20px;
     width: 100%;
     height: 60px;
-    background-color: rgb(29, 97, 153);
+    background-color: blue;
     box-shadow: 0 3px 3px rgba(37, 37, 37, 0.5);
-    padding-bottom: 8%;
+    padding-bottom: 6.5%;
 
 }
 
@@ -70,7 +70,7 @@ a {
             top: 0px;
             width: 100%;
             height: 900px;
-            background-color: rgb(108, 148, 15);
+            background-color: rgb(241, 245, 234);
             
             
 
@@ -80,14 +80,14 @@ img {
 
     position: relative;
     top: 10px;
-    left: 65%;
+    left: 62%;
     clip-path: circle(52% at center);
     width: 150px;
     height: 150px;
     box-shadow: 5px 10px 10px rgba(14, 13, 13, 0.3);
 }
 
-p {
+.p{
 
     position: relative;
     bottom: 130px;
@@ -107,15 +107,48 @@ p {
 .button {
     position: relative;
     bottom: 120px;
-    left: 100px;
+    left: 25%;
     background-color: blue;
     border-radius: 50px;
     border: 100px;
-    width: 100px;
+    width: 20%;
     height: 30px;
     color: white;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    
 }
 
+button:hover {
 
+    background-color: white;
+    color: black;
+}
 
+.border {
+
+    position: relative;
+    left: 5%;
+    border: 3px;
+    border-radius: 15%;
+    border-top-left-radius: 10%;
+    width: 90%;
+    height: 20%;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+
+  
+}
+
+h4 {
+    position: relative;
+    top: 5%;
+    text-align: center;
+    color: blue;
+}
+
+.about {
+
+    position: relative;
+    left: 3%;
+    text-align: left;
+}
