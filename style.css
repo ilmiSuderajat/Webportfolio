@@ -33,11 +33,12 @@ input {
 .ul {
     position: relative;
     bottom: 9px;
-    left: 35%;
+    left: 0%;
     display: flex;
     list-style-type: none;
-    align-items: center;
     font-size: 1em;
+    margin-left: 40%;
+   
     
 
 }
