@@ -23,7 +23,7 @@ input {
     height: 20px;
     width: 180px;
     position: relative;
-    left: 40px;
+    left: 10px;
     top: 35px;
     border-radius: 30px;
     border: none;
@@ -32,12 +32,12 @@ input {
 }
 .ul {
     position: relative;
-    bottom: 9px;
-    left: 0%;
+    bottom: 6px;
+    left: 0;
     display: flex;
     list-style-type: none;
-    font-size: 1em;
-    margin-left: 40%;
+    font-size: 0.9em;
+    margin-left: 32%;
    
     
 
