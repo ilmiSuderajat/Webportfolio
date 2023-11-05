@@ -54,6 +54,7 @@ li {
 li :hover {
 
     background-color: lightblue;
+    color: black;
 }
 
 a {
@@ -78,10 +79,37 @@ a {
 
 }
 
+#jam {
+
+
+    position: relative;
+    left: 0%;
+    top: 5%;
+    font-weight: bolder;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    margin-right: 40%;
+    margin-left: 42%;
+    color: yellow;
+    background-color: black;
+}
+
+.bj {
+        color: yellow;
+        font-weight: bold;
+        position: relative;
+        top: 10%;
+        padding: 10px;
+        margin-left: 28%;
+        margin-right: 37%;
+        background-color: rgb(19, 11, 10);
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+
+}
+
 img {
 
     position: relative;
-    top: 10px;
+    top: 15%;
     left: 62%;
     clip-path: circle(52% at center);
     width: 150px;
@@ -92,7 +120,7 @@ img {
 .p{
 
     position: relative;
-    bottom: 130px;
+    bottom: 1%;
     right: 40%;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -108,7 +136,7 @@ img {
 
 .button {
     position: relative;
-    bottom: 120px;
+    bottom: 10px;
     left: 25%;
     background-color: blue;
     border-radius: 50px;
@@ -116,6 +144,7 @@ img {
     width: 20%;
     height: 30px;
     color: white;
+    font-weight: bolder;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
     
 }
@@ -124,15 +153,6 @@ button:hover {
 
     background-color: white;
     color: black;
-}
-
-
-
-h4 {
-    position: relative;
-    top: 5%;
-    text-align: center;
-    color: blue;
 }
 
 .border1 {
@@ -151,45 +171,80 @@ h4 {
 
 }
 
-.border {
+.border2 {
 
-    position: relative;
-    bottom: 600px;
-    left: 5%;
-    border: 3px;
-    border-radius: 30%;
-    width: 90%;
-    height: 24%;
-    background-color: white;
-    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
-    background-color: brown;
-
-  
+    padding: 40px;
+    font-weight: bold;
+    font-style: italic;
 }
 
-.about {
-
-    position: relative;
-    bottom: 20px;
-    left: 3%;
-    text-align: left;
-    color: white;
-    
-}
+/* about */
 
 .bk {
-    position: relative;
-    background-color: aliceblue;
-    width: 100%;
-    height: 700px;
-    padding-top: 30px;
+        position: relative;
+        padding: 1px;
+        width: 100%;
+        height: 700px;        
+        background-color: lightblue;
+
 }
 
-.h3 {
+.pbk {
 
     position: relative;
-    top: 30px;
+    left: 45px;
+    top: 50px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: rgb(83, 83, 201);
+    width: 400px;
+    height: 500px;
+    font-weight: bold;
+    box-shadow: 20px 20px 3px rgba(0,0,0,0.5);
+}
+
+.imgab {
+
+    position: relative;
+    top: 0px;
+    bottom: 300px;
+    left: 0;
+}
+table {
+
+    border: 1px;
+    width: 400px;
+    background-color: yellow;
+}
+
+.h4ab {
+    position: relative;
     left: 35%;
+    width: 100px;
+    padding: 3px;
+    padding-top: 8px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    background-color: wheat;
 }
+
+.nama {
+
+    background-color: wheat;
+    position: relative;
+    left: 28%;
+    width: 150px;
+    padding: 5px;
+    box-shadow: 20px 10px 10px rgba(0,0,0,0.5);
+}
+
+.aboutMe {
+
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
 
 
